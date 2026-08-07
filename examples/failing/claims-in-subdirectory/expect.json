@@ -1,0 +1,2 @@
+{ "script": "validate", "code": "E_PROV_UNREGISTERED",
+  "why": "Attack G: the same malformed packet as `unregistered-source`, one directory deeper. The claims scan was non-recursive, so this instance reported {ok: true, claims: 0} — a check that cannot see a file cannot fail on it, and an invisible claim is worse than a rejected one." }

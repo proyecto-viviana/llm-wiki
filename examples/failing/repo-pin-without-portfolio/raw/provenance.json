@@ -1,0 +1,4 @@
+{ "sources": [ { "id": "src-upstream", "path": "upstream.c", "class": "external-primary",
+  "origin": { "type": "repo", "repo": "https://example.org/upstream.git",
+  "commit": "7c0bbbbf0a7e8ccac2793e470ef318a7ec7d4ec2", "retrieved": "2026-07-28" },
+  "why": "Claims a pinned upstream commit with no clone ever acquired." } ] }

@@ -1,0 +1,2 @@
+{ "id": "CLAIM-x", "statement": "Something a file says.", "level": "L2",
+  "source": { "id": "src-spec", "path": "../raw/spec.txt", "sha256": "74cce35ab07cf5259b4552927566492eca0458887657c6218b4352f2249f3602" } }

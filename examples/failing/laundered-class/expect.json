@@ -1,0 +1,2 @@
+{ "script": "validate", "code": "E_PROV_CLASS_MISMATCH",
+  "why": "The obvious way around the gate: keep the file, relabel the class. Origin and class are cross-checked so the label alone cannot do it." }

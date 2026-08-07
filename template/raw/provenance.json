@@ -1,0 +1,25 @@
+{
+  "$schema_note": "Register every raw source before an L2/L3 claim may cite it. Class is not a label you pick for convenience — validate.mjs checks it against origin.type.",
+  "$classes": {
+    "external-primary": "The authoritative artifact itself: a specification, a paper, a standard, or upstream source code at a pinned commit. origin.type must be url | repo | offline.",
+    "external-secondary": "A third party's description of something else: blog post, tutorial, vendor docs, talk. origin.type must be url | offline.",
+    "own-corpus": "Anything authored inside this project, including excerpts of our own documents copied into raw/. origin.type must be own-project. Caps claims citing it at L1.",
+    "product-code": "Our own source code, authoritative for what our system actually does. origin.type must be own-project AND origin.path must resolve inside one of productRoots — otherwise this class is just a relabelled own-corpus note."
+  },
+  "productRoots": [],
+  "$productRoots_note": "Repo-relative directories holding real product source. Required before any product-code entry may be cited; empty means no product-code source is accepted (fail closed).",
+  "$example": {
+    "id": "src-example-spec",
+    "path": "example-spec-excerpt.txt",
+    "class": "external-primary",
+    "origin": {
+      "type": "url",
+      "url": "https://www.example.org/spec/section-4",
+      "version": "2026-03 edition",
+      "retrieved": "2026-07-28"
+    },
+    "license": "check terms before retaining bytes",
+    "why": "Replace with the distinct question this source answers."
+  },
+  "sources": []
+}

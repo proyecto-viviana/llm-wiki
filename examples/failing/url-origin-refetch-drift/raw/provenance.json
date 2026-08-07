@@ -1,0 +1,4 @@
+{ "sources": [ { "id": "src-khronos-bake", "path": "bake-kinds.html",
+  "class": "external-primary",
+  "origin": { "type": "url", "url": "file:upstream/bake-kinds.html", "retrieved": "2026-07-28" },
+  "why": "What kinds of temporal bake exist." } ] }

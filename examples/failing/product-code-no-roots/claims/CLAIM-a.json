@@ -1,0 +1,3 @@
+{ "id": "CLAIM-a", "statement": "There are exactly five temporal bake kinds.", "level": "L3",
+  "source": { "id": "src-bake-taxonomy", "path": "../raw/our-invented-taxonomy.md",
+  "sha256": "8066af9929d64ddcf477f0a4855b1615b8fd307a1f777572b8fb0cb4f9c55f96" } }

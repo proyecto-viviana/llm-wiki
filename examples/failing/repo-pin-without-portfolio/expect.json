@@ -1,0 +1,2 @@
+{ "script": "lint-structure", "code": "E_NO_PORTFOLIO",
+  "why": "Citing a commit hash is cheap; acquiring the tree is not. The portfolio is the evidence that acquisition happened at all." }

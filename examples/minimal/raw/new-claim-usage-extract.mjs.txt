@@ -1,0 +1,8 @@
+
+const [, , id, statement, sourcePath, lineStart, lineEnd] = process.argv;
+if (!id || !statement || !sourcePath) {
+  console.error(
+    'usage: node scripts/new-claim.mjs CLAIM-id "statement" path/to/file [lineStart] [lineEnd]',
+  );
+  process.exit(2);
+}

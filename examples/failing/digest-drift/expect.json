@@ -1,0 +1,2 @@
+{ "script": "validate", "code": "E_DIGEST_DRIFT",
+  "why": "The original integrity check, kept. Provenance is added to it, not substituted for it." }

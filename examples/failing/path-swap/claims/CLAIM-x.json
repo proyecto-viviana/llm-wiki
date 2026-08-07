@@ -1,0 +1,2 @@
+{ "id": "CLAIM-x", "statement": "Borrowing a good source id for a different file.", "level": "L2",
+  "source": { "id": "src-a", "path": "../raw/other.txt", "sha256": "a321e4888b4b620c37fb5b0ff962dde1ce0004602d9ba7186f23dcc58eed3564" } }

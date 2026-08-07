@@ -1,0 +1,4 @@
+{ "sources": [ { "id": "src-spec", "path": "spec.txt",
+  "class": "external-primary",
+  "origin": { "type": "url", "url": "https://example.org/spec", "retrieved": "2026-07-28" },
+  "why": "Byte order the encoder must emit." } ] }

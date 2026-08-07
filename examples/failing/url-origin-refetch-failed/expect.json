@@ -1,0 +1,2 @@
+{ "script": "validate", "args": ["--refetch"], "code": "E_PROV_REFETCH_FAILED",
+  "why": "The confabulated-URL case proper: the origin does not exist at all. An agent that was told L2 needs an external source, and did not fetch one, produces exactly this — plausible URL, self-authored bytes. Offline stand-in for a 404, which arrives at the same code." }

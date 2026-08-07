@@ -1,0 +1,2 @@
+{ "id": "CLAIM-x", "statement": "A thing we wrote is true because we wrote it down and hashed it.",
+  "level": "L2", "source": { "id": "src-note", "path": "../raw/note.md", "sha256": "c4b15f127b416d955d7891c45f097cd951e1210580f33dade1cf16cd3f018f6b" } }

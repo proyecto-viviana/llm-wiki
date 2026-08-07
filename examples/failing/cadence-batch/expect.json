@@ -1,0 +1,6 @@
+{
+  "script": "lint-cadence",
+  "setup": "setup.mjs",
+  "codes": ["E_CADENCE_BATCH", "E_CADENCE_DAY", "E_CADENCE_GAP"],
+  "why": "Twenty-one decisions authored in one motion and moved into wiki/decisions in a single commit — the shape of the 2026-07-28 closeout, and the shape lint-cadence existed to catch without anyone ever having watched it catch anything. All three limits break at once: one commit carries 21 closes, one day carries 21, and 20 consecutive closes are 0.0 minutes apart. The rename is the point: the files were written elsewhere, so a check that only looked at where they were authored would see nothing."
+}

@@ -1,0 +1,2 @@
+{ "script": "validate", "code": "E_PROV_ESCAPE",
+  "why": "The lazy citation style: leave the document where it already lives, point the registry at it with `../`, declare it external. Containment is what refuses it — cite what was captured into raw/, not a file left in place." }

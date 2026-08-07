@@ -1,0 +1,2 @@
+{ "id": "CLAIM-x", "statement": "There are exactly five temporal bake kinds.", "level": "L3",
+  "source": { "id": "src-esc", "path": "../corpus/notes-left-in-place.md", "sha256": "99a24cf60d004278e488b8f682ea88b80c2b7f55c03fb1a102ad642e8e6d082c" } }

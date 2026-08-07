@@ -1,0 +1,6 @@
+# Excerpt: leaf-only wiki failure mode — synthetic teaching source
+
+When each ingest creates only a new note and never updates shared hub pages,
+cross-references never form. Queries re-derive synthesis from scratch. The
+compiled layer fails: accumulation requires multi-page updates (source page
+plus hubs plus index plus log).

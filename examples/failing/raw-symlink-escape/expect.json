@@ -1,0 +1,2 @@
+{ "script": "validate", "code": "E_PROV_ESCAPE",
+  "why": "The same escape one level down, where a lexical prefix check cannot see it: the registry path is a plain filename and resolve() lands inside raw/, but the file is a symlink out of the packet. Containment is therefore realpath'd on both sides." }

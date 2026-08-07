@@ -1,0 +1,2 @@
+{ "script": "validate", "code": "E_PROV_PRODUCT_ROOT",
+  "why": "Attack A from the 2026-07-28 adversarial review, verbatim: an invented taxonomy relabelled product-code, every field honest, green at L3. With no productRoots declared the class anchors nothing, so it fails closed rather than granting L3 on the strength of its own label." }

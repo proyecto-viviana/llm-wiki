@@ -1,0 +1,2 @@
+{ "id": "CLAIM-x", "statement": "The spec requires X.", "level": "L2",
+  "source": { "id": "src-sum", "path": "../raw/summary.md", "sha256": "3e13538aca7a180969d04cbdc9e0ffd02f4053344d859fd96d09eabda2fc87dc" } }

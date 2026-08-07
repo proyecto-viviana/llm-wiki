@@ -1,0 +1,2 @@
+{ "script": "lint-structure", "code": "E_NO_STOP_CONDITION",
+  "why": "A question with no stop condition cannot be finished, only declared finished — which is what a rubber stamp is." }

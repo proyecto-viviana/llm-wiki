@@ -1,0 +1,3 @@
+{ "sources": [ { "id": "src-sum", "path": "summary.md", "class": "external-primary",
+  "origin": { "type": "own-project", "path": "raw/summary.md" },
+  "why": "Declared external while admitting an own-project origin." } ] }

@@ -1,0 +1,40 @@
+{
+  "$schema_note": "Every source an L2/L3 claim cites must be registered here. Class is cross-checked against origin.type by scripts/validate.mjs.",
+  "productRoots": [
+    "examples/minimal/scripts"
+  ],
+  "sources": [
+    {
+      "id": "src-rfc2119-s1",
+      "path": "rfc2119-section-1-extract.txt",
+      "class": "external-primary",
+      "origin": {
+        "type": "offline",
+        "citation": "RFC 2119, Bradner, IETF, March 1997, sections 1-3",
+        "retrieved": "2026-07-28"
+      },
+      "license": "IETF Trust — RFCs are freely redistributable with attribution",
+      "why": "Fixes what a normative keyword means, so evidence-level wording can be checked against a standard rather than against our own habits."
+    },
+    {
+      "id": "src-karpathy-notes",
+      "path": "karpathy-reading-notes.md",
+      "class": "own-corpus",
+      "origin": {
+        "type": "own-project",
+        "path": "examples/minimal/raw/karpathy-reading-notes.md"
+      },
+      "why": "Our restatement of the source idea. Registered so it is visibly own-corpus and cannot be cited above L1."
+    },
+    {
+      "id": "src-new-claim-usage",
+      "path": "new-claim-usage-extract.mjs.txt",
+      "class": "product-code",
+      "origin": {
+        "type": "own-project",
+        "path": "examples/minimal/scripts/new-claim.mjs"
+      },
+      "why": "What arguments the claim-stub helper actually requires, taken from the tool rather than from a description of the tool."
+    }
+  ]
+}

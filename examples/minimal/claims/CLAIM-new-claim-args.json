@@ -1,0 +1,13 @@
+{
+  "id": "CLAIM-new-claim-args",
+  "statement": "scripts/new-claim.mjs exits 2 unless it is given all three of an id, a statement, and a source path; line numbers are optional.",
+  "level": "L3",
+  "source": {
+    "id": "src-new-claim-usage",
+    "provenanceClass": "product-code",
+    "path": "../raw/new-claim-usage-extract.mjs.txt",
+    "sha256": "b3fd40a786b1af524bc6e0f966855d721254db6e5ea207e2f07b4fd3fd62410a",
+    "lineStart": 2,
+    "lineEnd": 8
+  }
+}

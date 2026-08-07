@@ -1,0 +1,10 @@
+{
+  "id": "CLAIM-bake-kinds",
+  "statement": "There are exactly five temporal bake kinds.",
+  "level": "L2",
+  "source": {
+    "id": "src-bake-taxonomy",
+    "provenanceClass": "product-code",
+    "path": "../raw/bake-kinds.rs"
+  }
+}

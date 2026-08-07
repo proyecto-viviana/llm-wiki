@@ -1,0 +1,22 @@
+{
+  "$schema_note": "Example only. Copy to portfolio.json and edit. Clones are evidence, not dependencies.",
+  "reposRootHint": "../repos (or LLM_WIKI_REPOS_ROOT)",
+  "policy": {
+    "depth": 1,
+    "filter": "blob:none",
+    "preferSparse": true,
+    "detachAfterRefresh": true,
+    "refuseDirty": true,
+    "timeoutSecondsEnv": "LLM_WIKI_REFRESH_TIMEOUT_SECONDS",
+    "timeoutSecondsDefault": 30
+  },
+  "repositories": [
+    {
+      "name": "example-lib",
+      "url": "https://github.com/example/lib.git",
+      "sparsePaths": ["src", "docs"],
+      "license": "Apache-2.0",
+      "why": "Replace with the distinct question this remote answers."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "CLAIM-normative-keywords",
+  "statement": "In IETF usage, MUST denotes an absolute requirement and SHOULD permits deviation only when the full implications are understood and weighed.",
+  "level": "L2",
+  "source": {
+    "id": "src-rfc2119-s1",
+    "provenanceClass": "external-primary",
+    "path": "../raw/rfc2119-section-1-extract.txt",
+    "sha256": "af996bbd11a94a0aa3193d5842f81ceae7859ee76b414907aba31193ac3018a7",
+    "lineStart": 4,
+    "lineEnd": 14
+  }
+}

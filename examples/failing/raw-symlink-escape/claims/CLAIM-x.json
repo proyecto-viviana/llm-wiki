@@ -1,0 +1,2 @@
+{ "id": "CLAIM-x", "statement": "The encoder emits little-endian words.", "level": "L3",
+  "source": { "id": "src-spec", "path": "../raw/spec.txt", "sha256": "500faa16ef6b81d421cee3774a289f5f495a04cd313d613f3df1ecccf291e797" } }

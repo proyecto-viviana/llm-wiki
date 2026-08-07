@@ -1,0 +1,3 @@
+{ "sources": [ { "id": "src-note", "path": "note.md", "class": "own-corpus",
+  "origin": { "type": "own-project", "path": "raw/note.md" },
+  "why": "Honestly classed, and therefore not pinnable." } ] }

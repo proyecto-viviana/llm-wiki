@@ -1,0 +1,3 @@
+{ "sources": [ { "id": "src-a", "path": "registered.txt", "class": "external-primary",
+  "origin": { "type": "url", "url": "https://example.org/a", "retrieved": "2026-07-28" },
+  "why": "Registered once, cited against a different file." } ] }

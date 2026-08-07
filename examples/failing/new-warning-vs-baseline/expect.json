@@ -1,0 +1,2 @@
+{ "script": "lint-structure", "code": "E_NEW_WARNING", "args": ["--baseline"],
+  "why": "The baseline exists so an old pile of warnings cannot bury a fresh one. src-accepted's missing page is on record and stays a warning; src-ghost's identical gap is not, and green-because-nobody-reads-warnings is exactly the failure the flag exists to close." }

@@ -1,0 +1,2 @@
+{ "script": "validate", "code": "E_PROV_UNREGISTERED",
+  "why": "A file appearing in raw/ proves nothing about where it came from. Registration is where that gets stated." }

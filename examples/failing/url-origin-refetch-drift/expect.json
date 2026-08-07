@@ -1,0 +1,2 @@
+{ "script": "validate", "args": ["--refetch"], "code": "E_PROV_REFETCH_DRIFT",
+  "why": "Attack B, made offline: a hand-written url entry over bytes we authored ourselves. Every digest is internally consistent, so plain validate is green — the claim is only false about where the bytes came from, and nothing re-resolved the origin. The URL here is a local file so the fixture needs no network; a fabricated https URL fails the same pass, one step earlier." }

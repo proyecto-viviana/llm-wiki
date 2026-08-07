@@ -1,0 +1,2 @@
+{ "script": "validate", "code": "E_PROV_LEVEL_CAP",
+  "why": "The 2026-07-28 failure in one file: a real digest over a real file that we authored. Integrity passes; the claim is still worthless." }

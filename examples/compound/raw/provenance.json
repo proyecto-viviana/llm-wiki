@@ -1,0 +1,63 @@
+{
+  "productRoots": [],
+  "sources": [
+    {
+      "id": "src-bush-memex",
+      "path": "bush-memex-excerpt.txt",
+      "class": "external-secondary",
+      "origin": {
+        "type": "offline",
+        "citation": "Vannevar Bush, As We May Think, Atlantic Monthly, 1945 (short illustrative extract)",
+        "retrieved": "2026-07-30"
+      },
+      "license": "public domain in US for 1945 Atlantic essay text used illustratively; verify before redistribution of longer extracts",
+      "why": "Names associative trails as the value of a personal knowledge store."
+    },
+    {
+      "id": "src-qmd",
+      "path": "qmd-readme-excerpt.txt",
+      "class": "external-secondary",
+      "origin": {
+        "type": "offline",
+        "citation": "qmd project description (tobi/qmd) — short illustrative extract for demo",
+        "retrieved": "2026-07-30"
+      },
+      "license": "illustrative extract for offline demo only",
+      "why": "Separates local search tooling from compiled wiki maintenance."
+    },
+    {
+      "id": "src-index-first",
+      "path": "index-first-pattern.txt",
+      "class": "external-secondary",
+      "origin": {
+        "type": "offline",
+        "citation": "Synthetic teaching source: index-first navigation",
+        "retrieved": "2026-07-30"
+      },
+      "license": "CC0 demo text",
+      "why": "Documents when a curated index replaces embedding RAG at moderate scale."
+    },
+    {
+      "id": "src-leaf-only",
+      "path": "leaf-only-failure.txt",
+      "class": "external-secondary",
+      "origin": {
+        "type": "offline",
+        "citation": "Synthetic teaching source: leaf-only failure",
+        "retrieved": "2026-07-30"
+      },
+      "license": "CC0 demo text",
+      "why": "Names the failure mode multi-page ingest exists to prevent."
+    },
+    {
+      "id": "src-our-notes",
+      "path": "our-reading-notes.md",
+      "class": "own-corpus",
+      "origin": {
+        "type": "own-project",
+        "path": "examples/compound/raw/our-reading-notes.md"
+      },
+      "why": "Our restatement; must stay L1-capped."
+    }
+  ]
+}

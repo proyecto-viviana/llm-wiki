@@ -1,0 +1,2 @@
+{ "id": "CLAIM-a", "statement": "There are exactly five temporal bake kinds.", "level": "L3",
+  "source": { "id": "src-khronos-bake", "path": "../raw/bake-kinds.html", "sha256": "9c458b068bfcace6c401d2423f78eb85f2fa3979c8218a94cfeb1202b4e390b3" } }

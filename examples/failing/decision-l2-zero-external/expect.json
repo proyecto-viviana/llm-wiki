@@ -1,0 +1,2 @@
+{ "script": "lint-structure", "code": "E_DECISION_NO_EXTERNAL",
+  "why": "Everything is present and consistent: the level is declared in frontmatter, the claim exists, the digest would verify, the registry entry is honest. The only thing missing is a source somebody else wrote — which is the entire finding of 2026-07-28." }

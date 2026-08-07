@@ -1,0 +1,12 @@
+{
+  "productRoots": ["engine/"],
+  "sources": [
+    {
+      "id": "src-bake-taxonomy",
+      "path": "bake-kinds.rs",
+      "class": "product-code",
+      "origin": { "type": "own-project", "path": "engine/src/bake-kinds.rs" },
+      "why": "What kinds of temporal bake our own pipeline already implements."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "sources": [
+    {
+      "id": "src-accepted",
+      "class": "external-secondary",
+      "origin": { "type": "offline", "citation": "Vendor handbook, 2nd ed. (2019), ch. 4" },
+      "note": "Known gap: page pending. Its warning is in the committed baseline."
+    },
+    {
+      "id": "src-ghost",
+      "class": "external-secondary",
+      "origin": { "type": "offline", "citation": "Standards digest, vol. 12 (2021)" },
+      "note": "Registered after the baseline was committed; nobody wrote its page."
+    }
+  ]
+}

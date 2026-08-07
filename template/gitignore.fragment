@@ -1,0 +1,3 @@
+# Reference clones for LLM Wiki evidence (local only, never tracked).
+# Place this in the project root .gitignore (adjust path if needed).
+/repos/

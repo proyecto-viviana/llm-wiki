@@ -1,0 +1,7 @@
+# Excerpt: index-first navigation pattern — synthetic teaching source
+
+At moderate scale (~100 sources, hundreds of pages), a curated index.md with
+one-line summaries per page is enough for an agent to locate relevant pages
+before grepping the tree. The index is content-oriented; a separate log is
+chronological. Updating the index on every ingest is part of maintenance, not
+optional polish.

@@ -1,0 +1,5 @@
+{ "productRoots": ["engine/", "backend/src/"],
+  "sources": [ { "id": "src-bake-taxonomy", "path": "our-invented-taxonomy.md",
+  "class": "product-code",
+  "origin": { "type": "own-project", "path": "research/notes/bake-taxonomy.md" },
+  "why": "What kinds of temporal bake exist." } ] }

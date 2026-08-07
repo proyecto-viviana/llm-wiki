@@ -1,0 +1,2 @@
+{ "script": "lint-structure", "code": "E_NO_NON_CLAIMS",
+  "why": "A placeholder heading is not a boundary. An unbounded decision is the one that quietly expands into scope it never earned." }

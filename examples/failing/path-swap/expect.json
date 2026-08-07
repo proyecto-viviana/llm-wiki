@@ -1,0 +1,2 @@
+{ "script": "validate", "code": "E_PROV_PATH_CONFLICT",
+  "why": "Without this, one honestly-acquired source id becomes a licence to pin anything in raw/." }

@@ -54,6 +54,9 @@ scripts/             batteries: validate, lint, acquire/refresh
 `gitignore.fragment`). Override with `LLM_WIKI_REPOS_ROOT`. Clones are
 **evidence**, not dependencies: depth-1, `--filter=blob:none`, prefer sparse,
 detach after refresh, refuse dirty trees, bounded network timeout.
+Any blocking check that reads a clone must materialize and verify the recorded
+commit plus required paths, and must fail closed if that oracle is absent or
+mismatched. A skipped oracle is advisory, never a green gate.
 
 ## Sibling portfolio (optional; metaresearch)
 
@@ -194,12 +197,15 @@ node scripts/lint-cadence.mjs   # if agent-driven closes
 ```
 
 Green validate on an empty corpus is not evidence of a healthy wiki.
+Every blocking check needs a named negative fixture that is watched failing.
 
 ## Promotion (optional)
 
 If this wiki sits next to another authority (product code, legal policy, ops
 runbook), compiled pages are **not** that authority until a human promotes them
 with an explicit step. Delete this section if unused.
+Promotion must consume the complete required evidence set for the exact
+revision being promoted; another revision's green result does not transfer.
 
 ## Naming
 

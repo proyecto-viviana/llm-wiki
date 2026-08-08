@@ -28,6 +28,7 @@ workstream before greenfield invention. Full pattern: [metaresearch.md](./metare
 - [ ] **Lite:** stop here for L0–L1
 - [ ] **Strict / before L2:** source registered in `raw/provenance.json` (honest class)
 - [ ] **Strict:** if using git trees — clones refreshed; dirty not overwritten; paths recorded
+- [ ] Any blocking clone-backed check verifies commit + required paths and fails closed when absent or mismatched
 - [ ] L2/L3 claim packets **only** for load-bearing statements
 - [ ] No product import from `repos/` unless instance schema allows
 
@@ -85,6 +86,8 @@ Full pattern: [experiments.md](./experiments.md). Scaffolds:
 - [ ] `node scripts/validate.mjs` (pins + provenance)
 - [ ] `node scripts/lint-structure.mjs` (index/log, non-claims, stop conditions, orphans)
 - [ ] `node scripts/lint-cadence.mjs` (close rate from git history, agent fleets)
+- [ ] Every blocking check has a named negative fixture that is watched failing
+- [ ] Promotion consumes the complete required check set for the exact revision being promoted
 
 ## Periodic pass (hand-run, not per-close)
 

@@ -32,6 +32,14 @@ instance rule says so.
    URL, commit, default branch, refresh date, license, and paths actually read.
 10. **Old packets stay at their commits.** After a refresh, do not pretend old
     line numbers still describe the new tree. Reconcile or re-pin.
+11. **Blocking checks fail closed.** A validator that promises upstream-backed
+    evidence must reject a missing clone, wrong commit, missing required path,
+    or unreadable manifest. Reporting "not available" and exiting successfully
+    is advisory behavior, not a gate.
+12. **CI materializes the pin.** A developer's ignored checkout is not a CI
+    input. Before an upstream-backed gate runs, acquire the recorded commit and
+    verify its identity plus the exact paths and package/spec versions the gate
+    reads.
 
 ## Layout (recommended)
 
@@ -97,6 +105,20 @@ For each clean git directory under the repos root:
 4. print a TSV receipt: name, result, before, after, default branch.
 
 Dirty clones are reported and counted as failures (not overwritten).
+
+### Evidence-gate preflight
+
+For any blocking check that reads a reference clone:
+
+1. acquire or refresh to the recorded revision;
+2. verify the checkout commit and any recorded package/spec identities;
+3. verify every required evidence path is present;
+4. run the behavioral or structural validator;
+5. keep a negative fixture that proves an absent or mismatched oracle exits
+   non-zero.
+
+Availability is part of the evidence contract. If the preflight cannot prove
+what source the validator read, the validator did not run successfully.
 
 ### Record in the wiki
 

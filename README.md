@@ -57,6 +57,12 @@ Reference clones are truth for
 vendoring). Wiki is truth for *what we currently believe and how it connects*.
 Schema is truth for *how the agent must behave*.
 
+For clone-backed automation, availability is part of the evidence contract. A
+blocking check fails if the clone is absent, at the wrong commit, or missing a
+required path; CI materializes and verifies the recorded pin rather than relying
+on a developer's ignored checkout. A skipped oracle may be an advisory report,
+but it is not a green gate.
+
 See [docs/reference-clones.md](docs/reference-clones.md) for depth-1 blobless
 sparse acquire/refresh, dirty refusal, timeouts, and wiki pin receipts.
 
@@ -180,7 +186,9 @@ See [docs/lint-semantic.md](docs/lint-semantic.md). Log each pass; optional repo
 **Mechanical batteries** (Strict, or whenever `claims/` is non-empty):
 [`template/scripts/`](template/scripts/) — pin digests, provenance, structure,
 cadence. Machine checks catch integrity drift; they do **not** prove the wiki is
-worth reading.
+worth reading. Every blocking check needs a watched negative fixture, and any
+promotion gate must consume the complete check set for the exact revision being
+promoted — a green sibling run from another revision is not evidence.
 
 ---
 
